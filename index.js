@@ -1,11 +1,11 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
+const { Server } = require('socket.io');
 import connectDB from './config/db.js';
 import userRoutes from './routes/userRoutes.js'
 import projectRoutes from './routes/projectRoutes.js'
 import taskRoutes from './routes/taskRoutes.js'
-import { Server } from 'socket.io';
 
 const app = express();
 app.use(express.json());
