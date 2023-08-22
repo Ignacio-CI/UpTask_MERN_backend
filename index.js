@@ -1,6 +1,6 @@
 const express = require('express');
+const dotenv = require('dotenv');
 import connectDB from './config/db.js';
-import dotenv from "dotenv";
 import cors from 'cors';
 import userRoutes from './routes/userRoutes.js'
 import projectRoutes from './routes/projectRoutes.js'
