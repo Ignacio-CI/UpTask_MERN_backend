@@ -5,9 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "npm run build",
-    "start": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "MERN",
